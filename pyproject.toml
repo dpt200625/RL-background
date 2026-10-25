@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlcore"
+version = "0.1.0"
+description = "Shared building blocks (MDPs, environments, policies, rollouts, artifacts) for the RL-background lessons"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "matplotlib>=3.8"]
+
+[tool.setuptools]
+packages = ["rlcore"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

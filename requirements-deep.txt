@@ -1,0 +1,8 @@
+# Extra packages for Chapter II onwards (function approximation, DQN, policy gradient, ...).
+# CPU-only PyTorch wheel:
+#   pip install -r requirements-deep.txt --extra-index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+
+torch==2.9.1
+gymnasium==1.3.0
+tqdm==4.67.1

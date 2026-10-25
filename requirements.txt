@@ -1,0 +1,16 @@
+# Core environment for Chapter I (tabular RL) and the shared `rlcore` package.
+# CPU only. Python 3.10+ (tested with 3.12).
+# Install:  pip install -r requirements.txt && pip install -e .
+
+numpy==2.4.6
+matplotlib==3.10.0
+
+# notebooks
+jupyterlab==4.5.0
+notebook==7.5.0
+ipykernel==6.29.5
+nbformat==5.10.4
+nbclient==0.10.2
+
+# checks
+pytest==9.1.1
