@@ -4,6 +4,8 @@ Reinforcement Learning foundations, from David Silver's course to deep RL and mo
 
 **Goal:** understand the formulation, formulas, update mechanisms and pipeline of RL well enough to read research independently.
 
+**Original lecture (Vietnamese):** [lecture/RL_background_VNI.pdf](lecture/RL_background_VNI.pdf) is the source PDF, written in **Vietnamese** (48 pages, v2.2). The notebooks in this repo are its English rewrite; open the PDF to check the original wording.
+
 ## 1. Setup (once)
 
 ```bash
